@@ -7,3 +7,6 @@ docker compose run app sh -c "python manage.py test"
 
 # After creating custom user
 docker compose run app sh -c "python manage.py makemigrations core"
+
+
+docker compose run app sh -c "python manage.py createsuperuser"
